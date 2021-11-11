@@ -1,0 +1,42 @@
+.l-heading{
+  font-size: 2rem;
+  font-weight: 600;
+}
+#content{
+  flex-direction: column;
+  flex-flow: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+#content{
+  display: flex;
+  background: hsl(244, 38%, 16%);
+  width: 80%;
+  height: 90%;
+  justify-content: space-between;  
+  align-self: center;  
+  border-radius: 7px;
+}
+#content div{
+  align-self: center;
+  text-align: center;
+  padding: 1rem;  
+  flex: 2.5;
+}
+#content div > ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+#content div > ul > li{
+  padding: 1rem;
+  text-align: center;
+}
+#content .img-container{
+  background: hsl(277, 64%, 61%);
+  width: 100%;
+  height: 70%;
+  position: relative;
+  flex: 1;
+}
